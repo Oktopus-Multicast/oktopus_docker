@@ -17,7 +17,6 @@ RUN git clone https://github.com/oktopus-multicast/oktopus_eval-scripts.git
 RUN git clone https://github.com/oktopus-multicast/oktopus_dataset-gen.git
 
 RUN pip install --upgrade pip
-RUN pip install -r /usr/src/app/oktopus_framework/requirements.txt
 RUN pip install -e /usr/src/app/oktopus_framework
 RUN pip install -e /usr/src/app/oktopus_dataset-gen
 RUN pip install -e /usr/src/app/oktopus_eval-scripts
